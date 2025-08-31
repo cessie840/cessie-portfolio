@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+body {
+	background-color: #202020;
+	font-family: "Fredoka", sans-serif;
+	color: #a998ff;
+}
+
+.navbar,
+.dropdown-menu,
+.dropdown-item {
+	background-color: black;
+	color: #ff66c4;
+}
+
+.navbar-brand {
+	font-family: "Fredoka";
+	font-weight: bold;
+}
+
+.custom-color,
+.navbar-brand,
+.nav-item .dropdown-toggle {
+	color: #ff66c4;
+}
+
+.nav-item .dropdown-toggle:hover,
+.nav-link:hover,
+.navbar-brand:hover,
+.custom-color:hover,
+.dropdown-item:hover {
+	background-color: black;
+	color: #a998ff;
+}
+
+.navbar-toggler {
+	background-color: #ff66c4;
+	border: none;
+}
+
+.navbar-toggler:hover {
+	background-color: #a998ff;
+}
+
+main {
+	padding: 3rem 1rem;
+}
+
+.gallery-section {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #2a2a2a;
+	border-radius: 1rem;
+	padding: 2rem;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.gallery-section h2 {
+	color: #ff66c4;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+}
+
+.gallery-item {
+	background-color: #333;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+	transform: scale(1.05);
+}
+
+.modal-img {
+	width: 100%;
+	border-radius: 0.5rem;
+}
+
+.btn-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+footer {
+	opacity: 50%;
+	margin-top: 5vh 0 5vh 0;
+	flex-shrink: 0;
+	padding: 1rem;
+}

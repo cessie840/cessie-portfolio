@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+body {
+  background-color: #202020;
+  font-family: "Fredoka", sans-serif;
+  color: #a998ff;
+}
+
+.navbar,
+.dropdown-menu,
+.dropdown-item {
+  background-color: black;
+  color: #ff66c4;
+}
+
+.navbar-brand {
+  font-family: "Fredoka";
+  font-weight: bold;
+}
+
+.custom-color,
+.navbar-brand,
+.nav-item .dropdown-toggle {
+  color: #ff66c4;
+}
+
+.nav-item .dropdown-toggle:hover,
+.nav-link:hover,
+.navbar-brand:hover,
+.custom-color:hover,
+.dropdown-item:hover {
+  background-color: black;
+  color: #a998ff;
+}
+
+.navbar-toggler {
+  background-color: #ff66c4;
+  border: none;
+}
+
+.navbar-toggler:hover {
+  background-color: #a998ff;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 2rem 1rem;
+}
+
+.hero-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #202020;
+  border: rgba(65, 65, 65, 0.39) solid 1px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.81);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2rem;
+  margin-top: 5vh;
+}
+
+.hero:hover {
+  transform: translateY(-10px);
+}
+
+.hero-title {
+  text-align: center;
+  color: #ff66c4;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-title:hover {
+  transform: translateY(-10px);
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.hero .name-highlight {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #a998ff;
+}
+
+.hero .role-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff66c4;
+}
+
+@media (max-width: 767.98px) {
+  .hero img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+.hero .name-highlight {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #a998ff;
+}
+
+.hero .role-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff66c4;
+}
+
+@media (min-width: 768px) {
+  .hero .name-highlight {
+    font-size: 4rem;
+  }
+
+  .hero .role-text {
+    font-size: 2rem;
+  }
+}
+
+
+footer {
+  opacity: 50%;
+  margin-top: 5vh 0 5vh 0;
+  flex-shrink: 0;
+  padding: 1rem;
+}
