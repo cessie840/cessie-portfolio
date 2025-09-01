@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
 
 body {
-	background-color: #202020;
-	font-family: "Fredoka", sans-serif;
-	color: #a998ff;
+  background-color: #202020;
+  font-family: "Fredoka", sans-serif;
+  color: #a998ff;
 }
 
 .navbar,
 .dropdown-menu,
 .dropdown-item {
-	background-color: black;
-	color: #ff66c4;
+  background-color: black;
+  color: #ff66c4;
 }
 
 .navbar-brand {
-	font-family: "Fredoka";
-	font-weight: bold;
+  font-family: "Fredoka";
+  font-weight: bold;
 }
 
 .custom-color,
 .navbar-brand,
 .nav-item .dropdown-toggle {
-	color: #ff66c4;
+  color: #ff66c4;
 }
 
 .nav-item .dropdown-toggle:hover,
@@ -29,71 +29,75 @@ body {
 .navbar-brand:hover,
 .custom-color:hover,
 .dropdown-item:hover {
-	background-color: black;
-	color: #a998ff;
+  background-color: black;
+  color: #a998ff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,102,196,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar-toggler {
-	background-color: #ff66c4;
-	border: none;
+  background-color: #ff66c400;
+  border: none;
 }
 
 .navbar-toggler:hover {
-	background-color: #a998ff;
+  background-color: #ff66c444;
 }
 
 main {
-	padding: 3rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .skills-section {
-	max-width: 900px;
-	margin: 0 auto;
-	background-color: #2a2a2a;
-	border-radius: 1rem;
-	padding: 2rem;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
 }
 
 .skills-section h2 {
-	color: #ff66c4;
-	font-size: 2rem;
-	margin-bottom: 1.5rem;
-	text-align: center;
+  color: #ff66c4;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .skill-item {
-	background-color: #333;
-	border-radius: 0.5rem;
-	padding: 1rem;
-	margin-bottom: 1rem;
-	transition: background-color 0.3s ease;
+  background-color: #333;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .skill-item:hover {
-	background-color: #444;
+  background-color: #444;
 }
 
 .skill-item i {
-	font-size: 2rem;
-	color: #ffd05b;
-	margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #ffd05b;
+  margin-bottom: 0.5rem;
 }
 
 .skill-item h4 {
-	margin: 0;
-	font-size: 1.2rem;
-	color: #ffd05b;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffd05b;
 }
 
 .skill-item p {
-	margin: 0.5rem 0 0;
-	color: #ccc;
+  margin: 0.5rem 0 0;
+  color: #ccc;
 }
 
 footer {
-	opacity: 50%;
-	margin: 5vh 0 5vh 0;
-	flex-shrink: 0;
-	padding: 1rem;
+  opacity: 50%;
+  margin: 5vh 0 5vh 0;
+  flex-shrink: 0;
+  padding: 1rem;
 }
